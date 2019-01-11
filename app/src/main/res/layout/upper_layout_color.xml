@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/material_bg_1"/>
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:id="@+id/avater"
+        android:layout_margin="30dp"
+        android:src="@drawable/photo_female_1"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="0"
+        app:civ_border_width="2dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kristina mular"
+            android:padding="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
